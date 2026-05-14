@@ -1,0 +1,44 @@
+INSERT INTO departments
+VALUES
+(101, 'HR'),
+(102, 'IT'),
+(103, 'Sales'),
+(104, 'Finance');
+
+INSERT INTO employees
+VALUES
+(1, 'Sahil', 'Delhi', 18000, 101, 3),
+(2, 'Aleem', 'Mumbai', 17000, 101, 3),
+(3, 'Rohit', 'Pune', 25000, 102, NULL),
+(4, 'Ali', 'Delhi', 22000, 102, NULL),
+(5, 'Irfan', 'Lucknow', 15000, 103, 4),
+(6, 'TestUser', 'Noida', 20000, 999, NULL);
+
+INSERT INTO projects
+VALUES
+(1, 'HR System', 101),
+(2, 'Website Development', 102),
+(3, 'Sales Dashboard', 103),
+(4, 'Finance Tracker', 104);
+
+INSERT INTO salaries
+VALUES
+(1, 1, 2000, 500, 'Jan'),
+(2, 2, 1500, 300, 'Jan'),
+(3, 3, 3000, 700, 'Jan'),
+(4, 4, 2500, 400, 'Jan'),
+(5, 5, 1000, 200, 'Jan');
+
+
+INSERT INTO logins
+VALUES
+(1, 1, '2025-01-01'),
+(2, 1, '2025-01-02'),
+(3, 1, '2025-01-03'),
+(4, 2, '2025-01-01'),
+(5, 2, '2025-01-05'),
+(6, 3, '2025-01-10'),
+(7, 3, '2025-01-11'),
+(8, 3, '2025-01-12'),
+(9, 4, '2025-01-07'),
+(10, 4, '2025-01-09');
